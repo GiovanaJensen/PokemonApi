@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3j8Al/iw7HSZFDYy6HtylmulM4s2CeEAF6JDer2LGOUxPpDo6onb2b8BvD7ACADOsXVJRfvixPqgsFyBYIoaVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\revisandoApis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arklok\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Arklok\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Arklok\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arklok\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arklok\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Arklok\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
