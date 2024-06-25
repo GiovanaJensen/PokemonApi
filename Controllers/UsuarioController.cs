@@ -1,5 +1,9 @@
+using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using revisandoApis.Data.Dtos;
+using revisandoApis.Models;
+using revisandoApis.services;
 
 namespace revisandoApis.Controllers
 {
@@ -7,9 +11,18 @@ namespace revisandoApis.Controllers
     [Route("[controller]")]
     public class UsuarioController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult CadastraUsuario(CreateUsuarioDto dto){
-            throw new NotImplementedException();
+        private UsuarioService _usuarioService;
+
+        [HttpPost("cadastro")]
+        public async Task<IActionResult> CadastraUsuario(CreateUsuarioDto dto){
+            await _usuarioService.Cadastra(dto);
+            return Ok("Usuário cadastrado");
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginUsuarioDto dto){
+           var token = await _usuarioService.Login(dto);
+            return Ok(token);
         }
     }
 }

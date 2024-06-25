@@ -9,6 +9,6 @@ namespace revisandoApis.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<PokemonOwners> PokemonOwners { get; set; }
+        public ICollection<PokemonOwner> PokemonOwners { get; set; }
     }
 }
