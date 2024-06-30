@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GZuFBRcZo2Q506rM+WcnydFxqsy7tFeAVX7sai6lxDVNqMSPRtjNyH10F0rMHXH3GiYf8jIqGqZhIP3KIR1kIQ==",
-  "success": true,
+  "dgSpecHash": "dkGZWtv70MpAGe9K8u2B2T+v5XfNYeHbha9s2wyNka/rfwFo2l9b7AmlGqJtYdh3eKdKNUenjgPQMYWHwHqUuw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\revisandoApis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Modal_GR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.14\\microsoft.aspnetcore.authentication.jwtbearer.6.0.14.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.14\\microsoft.aspnetcore.cryptography.keyderivation.6.0.14.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.14.nupkg.sha512",
@@ -33,6 +34,8 @@
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.27.0\\microsoft.identitymodel.abstractions.6.27.0.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.5.0\\microsoft.identitymodel.jsonwebtokens.6.5.0.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.logging\\6.27.0\\microsoft.identitymodel.logging.6.27.0.nupkg.sha512",
+    "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.27.0\\microsoft.identitymodel.tokens.6.27.0.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.netcore.app\\2.0.7\\microsoft.netcore.app.2.0.7.nupkg.sha512",
     "C:\\Users\\Modal_GR\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.7\\microsoft.netcore.dotnetapphost.2.0.7.nupkg.sha512",
@@ -102,6 +105,15 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "revisandoApis depends on System.IdentityModel.Tokens.Jwt (>= 6.0.27) but System.IdentityModel.Tokens.Jwt 6.0.27 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 6.5.0 was resolved.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: System.IdentityModel.Tokens.Jwt from 6.10.0 to 6.5.0. Reference the package directly from the project to select a different version. \r\n revisandoApis -> Microsoft.AspNetCore.Authentication.JwtBearer 6.0.14 -> Microsoft.IdentityModel.Protocols.OpenIdConnect 6.10.0 -> System.IdentityModel.Tokens.Jwt (>= 6.10.0) \r\n revisandoApis -> System.IdentityModel.Tokens.Jwt (>= 6.0.27)",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net6.0"
