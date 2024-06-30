@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\revisandoApis.csproj": {}
+    "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\revisandoApis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\revisandoApis.csproj": {
+    "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\revisandoApis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\revisandoApis.csproj",
+        "projectUniqueName": "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\revisandoApis.csproj",
         "projectName": "revisandoApis",
-        "projectPath": "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\revisandoApis.csproj",
-        "packagesPath": "C:\\Users\\Arklok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arklok\\OneDrive - MODALGR\\backend-projects\\revisandoApis\\obj\\",
+        "projectPath": "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\revisandoApis.csproj",
+        "packagesPath": "C:\\Users\\Modal_GR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Modal_GR\\Downloads\\PokemonApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arklok\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Modal_GR\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
